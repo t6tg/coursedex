@@ -1,0 +1,53 @@
+.mock {
+  width: 80%;
+}
+.header-content {
+  font-size: 40px;
+  margin-left: 100px;
+}
+.source-of-online {
+  margin-left: 100px;
+  font-size: 24px;
+}
+.col-1-head {
+  margin: auto;
+  text-align: left;
+}
+.col-2-head {
+  margin: auto;
+}
+
+@media (max-width: 1024px) {
+  .header-content {
+    font-size: 30px;
+    margin-left: 20px;
+  }
+  .source-of-online {
+    margin-left: 20px;
+    line-height: 1pt;
+    font-size: 16px;
+  }
+}
+@media (max-width: 700px) {
+  .header-content {
+    font-size: 20px;
+    margin-left: auto;
+  }
+  .source-of-online {
+    margin-left: auto;
+    line-height: 1pt;
+    font-size: 13px;
+  }
+  .mock {
+    display: none;
+  }
+  .col-1-head {
+    line-height: 14pt;
+    margin: 40px auto;
+    font-size: 25px;
+    text-align: center;
+  }
+  .col-2-head {
+    display: none !important;
+  }
+}

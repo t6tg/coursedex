@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 class Navbar extends Component {
   state = {
-    current: "mail",
+    current: "home",
     visible: false,
   };
   showDrawer = () => {
