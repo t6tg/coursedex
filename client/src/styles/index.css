@@ -1,0 +1,5 @@
+@import "~antd/dist/custom.css";
+html,
+body {
+  font-family: "K2D", sans-serif;
+}
