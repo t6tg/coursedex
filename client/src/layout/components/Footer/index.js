@@ -7,9 +7,9 @@ export function Footer() {
   return (
     <div className="footer">
       <Row justify="center">
-        <Col span={7}>
+        <Col span={8}>
           <div>
-            <img src="./logo.png" alt="logo" />
+            <img src="./logo.png" alt="logo" className="col-1" />
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.

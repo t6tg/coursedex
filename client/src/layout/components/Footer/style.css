@@ -8,6 +8,13 @@
   color: #f16f24;
 }
 
+@media only screen and (max-width: 1024px) {
+  .col-1 {
+  }
+  .col-2 {
+    display: none !important;
+  }
+}
 @media only screen and (max-width: 600px) {
   .col-2 {
     display: none !important;

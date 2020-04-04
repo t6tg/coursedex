@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import LeftMenu from "./LeftMenu";
+import RightMenu from "./RightMenu";
 import "./style.css";
 import { Drawer, Button } from "antd";
 import { MenuOutlined } from "@ant-design/icons";
@@ -33,9 +34,9 @@ class Navbar extends Component {
             <div className="leftMenu">
               <LeftMenu />
             </div>
-            {/* <div className="rightMenu">
+            <div className="rightMenu">
               <RightMenu />
-            </div> */}
+            </div>
             <Button
               className="barsMenu"
               type="primary"
@@ -46,14 +47,14 @@ class Navbar extends Component {
               </span>
             </Button>
             <Drawer
-              title="RedXAV"
+              title="Coursedemy"
               placement="right"
               closable={false}
               onClose={this.onClose}
               visible={this.state.visible}
             >
               <LeftMenu />
-              {/* <RightMenu /> */}
+              <RightMenu />
             </Drawer>
           </div>
         </nav>
