@@ -1,5 +1,5 @@
 <p align="center">
-<img src="./Design/logo-coursedemy.png" width="180">
+<img src="./Design/logo-coursedemy.png" width="110">
 </p>
 <h1 align="center">COURSEDEMY</h1>
 <h4 align="center" >👨‍🎓 Source of online courses and workshop</h4>
