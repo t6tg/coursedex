@@ -1,7 +1,7 @@
 <p align="center">
 <img src="./Design/logo-coursedemy.png" width="110">
 </p>
-<h1 align="center">COURSEDEMY</h1>
+<h1 align="center">COURSEDEX</h1>
 <h4 align="center" >👨‍🎓 Source of online courses and workshop</h4>
 
 ## Requirements
@@ -18,7 +18,7 @@
 Clone This Repository or Pull a source
 
  ```
- $ git  clone https://github.com/thanawatgulati/coursedemy.git
+ $ git  clone https://github.com/thanawatgulati/coursedex.git
  ```
 
  Install its dependencies
