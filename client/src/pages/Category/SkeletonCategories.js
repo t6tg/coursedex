@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Avatar, Row, Col, Input } from "antd";
+import { Card, Avatar, Row, Col } from "antd";
 import { SearchInput } from "../../components";
 const { Meta } = Card;
 

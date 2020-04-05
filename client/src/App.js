@@ -9,6 +9,7 @@ export default class App extends Component {
         <MainLayout>
           <Switch>
             <Route exact={true} path="/" component={Home} />
+            <Route exact={true} path="/course" component={Category} />
             <Route exact={true} path="/category/:name" component={Category} />
             <Route component={NotFoundPage} />
           </Switch>
