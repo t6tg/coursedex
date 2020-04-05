@@ -86,6 +86,12 @@
 }
 
 @media (max-width: 1024px) {
+  .mobile-menu {
+    display: block;
+  }
+  .desktop-menu {
+    display: none;
+  }
   .barsMenu {
     display: inline-block !important;
   }
