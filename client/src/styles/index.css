@@ -1,4 +1,4 @@
-@import "~antd/dist/custom.css";
+@import "../style-custom/custom-antd.css";
 html,
 body {
   font-family: "K2D", sans-serif;

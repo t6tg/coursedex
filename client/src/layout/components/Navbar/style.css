@@ -4,6 +4,9 @@
   overflow: auto;
   box-shadow: 0 0 30px #f3f1f1;
 }
+.mobile-menu {
+  display: none;
+}
 .logo {
   width: 130px;
   padding: 10px 0;
@@ -12,7 +15,7 @@
 .logo a {
   display: inline-block;
   font-size: 20px;
-  padding: 3px 100px;
+  padding: 3px 0px;
   text-transform: capitalize;
 }
 .menuCon {
@@ -20,7 +23,7 @@
   float: left;
 }
 .menuCon .ant-menu-item {
-  padding: 0px 100px;
+  padding: 0px 20px;
 }
 .menuCon .ant-menu-submenu-title {
   padding: 10px 6px;
@@ -103,6 +106,12 @@
 }
 
 @media (max-width: 700px) {
+  .mobile-menu {
+    display: block;
+  }
+  .desktop-menu {
+    display: none;
+  }
   .barsMenu {
     display: inline-block !important;
   }
