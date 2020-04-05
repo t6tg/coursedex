@@ -11,7 +11,7 @@ export class Header extends Component {
           <Col id="col-1-head" span={12}>
             <img alt="mock-mobile" id="mock-mobile" src={Mock} />
             <br />
-            <span class="left-head">
+            <span className="left-head">
               <h1 id="header-content">Coursedex</h1>
               <span id="source-of-online">
                 Source of online courses and workshop

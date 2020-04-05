@@ -2,6 +2,7 @@ import React from "react";
 import { Row, Col } from "antd";
 import { Link } from "react-router-dom";
 import "./style.css";
+import LOGO from "../../../assets/logo.png";
 
 export function Footer() {
   return (
@@ -9,7 +10,12 @@ export function Footer() {
       <Row justify="center">
         <Col span={8}>
           <div>
-            <img src="./logo.png" alt="logo" className="col-1" />
+            <img
+              src={LOGO}
+              style={{ width: "130px" }}
+              alt="logo"
+              className="col-1"
+            />
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.

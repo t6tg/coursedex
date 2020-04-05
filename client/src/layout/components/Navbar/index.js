@@ -5,7 +5,7 @@ import "./style.css";
 import { Drawer, Button } from "antd";
 import { MenuOutlined } from "@ant-design/icons";
 import { Link } from "react-router-dom";
-
+import LOGO from "../../../assets/logo.png";
 class Navbar extends Component {
   state = {
     current: "home",
@@ -28,7 +28,7 @@ class Navbar extends Component {
         <nav className="menuBar">
           <div className="logo">
             <Link to="/">
-              <img src={"./logo.png"} alt="logo" />
+              <img style={{ width: "130px" }} src={LOGO} alt="logo" />
             </Link>
           </div>
           <div className="menuCon">
@@ -48,7 +48,7 @@ class Navbar extends Component {
               </span>
             </Button>
             <Drawer
-              title="Coursedemy"
+              title="Coursedex"
               placement="right"
               closable={false}
               onClose={this.onClose}

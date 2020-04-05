@@ -44,15 +44,15 @@
 @media (max-width: 1024px) {
   #hr-header {
     margin: 20px auto;
-    margin-left: 20px;
+    margin-left: 40px;
     height: 4px;
   }
   #header-content {
     font-size: 30px;
-    margin-left: 20px;
+    margin-left: 40px;
   }
   #source-of-online {
-    margin-left: 20px;
+    margin-left: 40px;
     line-height: 1pt;
     font-size: 16px;
   }
