@@ -1,0 +1,13 @@
+.vector-search {
+  width: 150px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 0;
+}
+
+@media only screen and (max-width: 700px) {
+  .vector-search {
+    display: none;
+  }
+}

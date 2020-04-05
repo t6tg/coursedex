@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import MainLayout from "./layout/MainLayout";
-import { Home, NotFoundPage, Category } from "./pages";
+import { Home, NotFoundPage, Category, Course } from "./pages";
 export default class App extends Component {
   render() {
     return (
@@ -9,7 +9,7 @@ export default class App extends Component {
         <MainLayout>
           <Switch>
             <Route exact={true} path="/" component={Home} />
-            <Route exact={true} path="/course" component={Category} />
+            <Route exact={true} path="/course" component={Course} />
             <Route exact={true} path="/category/:name" component={Category} />
             <Route component={NotFoundPage} />
           </Switch>
