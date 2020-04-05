@@ -1,0 +1,14 @@
+#img-404 {
+  width: 35%;
+}
+#link-to-home {
+  margin-bottom: 150px;
+}
+@media only screen and (max-width: 700px) {
+  #img-404 {
+    width: 80%;
+  }
+  #link-to-home {
+    margin-bottom: 80px;
+  }
+}

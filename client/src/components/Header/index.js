@@ -7,12 +7,12 @@ export class Header extends Component {
   render() {
     return (
       <div>
-        <Row>
+        <Row id="row-header">
           <Col id="col-1-head" span={12}>
             <img alt="mock-mobile" id="mock-mobile" src={Mock} />
             <br />
             <span class="left-head">
-              <h1 id="header-content">Coursedemy</h1>
+              <h1 id="header-content">Coursedex</h1>
               <span id="source-of-online">
                 Source of online courses and workshop
               </span>

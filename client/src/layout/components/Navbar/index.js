@@ -21,6 +21,7 @@ class Navbar extends Component {
       visible: false,
     });
   };
+
   render() {
     return (
       <div>

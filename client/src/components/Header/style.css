@@ -13,6 +13,10 @@
   margin-left: 100px;
   font-size: 24px;
 }
+#row-header {
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
 #col-1-head {
   margin: auto;
   text-align: left;
@@ -55,6 +59,10 @@
 }
 /* 700 PX */
 @media (max-width: 700px) {
+  #row-header {
+    margin-top: 20px;
+    margin-bottom: auto;
+  }
   #mock-mobile {
     margin-bottom: 30px;
     display: block;

@@ -1,21 +1,13 @@
 .footer {
-  /* position: fixed; */
   left: 0;
   bottom: 0;
-  padding: 20px;
   width: 100%;
   background-color: #fff;
   color: #f16f24;
+  padding: 50px;
 }
 
-@media only screen and (max-width: 1024px) {
-  .col-1 {
-  }
-  .col-2 {
-    display: none !important;
-  }
-}
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .col-2 {
     display: none !important;
   }

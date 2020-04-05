@@ -1,16 +1,17 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import MainLayout from "./layout/MainLayout";
-import { Home } from "./pages";
+import { Home, NotFoundPage } from "./pages";
 export default class App extends Component {
   render() {
     return (
       <Router>
-        <Switch>
-          <MainLayout>
-            <Route exact path="/" component={Home} />
-          </MainLayout>
-        </Switch>
+        <MainLayout>
+          <Switch>
+            <Route exact={true} path="/" component={Home} />
+            <Route component={NotFoundPage} />
+          </Switch>
+        </MainLayout>
       </Router>
     );
   }
